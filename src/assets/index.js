@@ -15,16 +15,16 @@ import android from "./tech-stack/android.gif";
 // Import tech logos
 import css from "./tech/css.png";
 import git from "./tech/git.png";
-import jetpackCompose from "./tech/jetpackCompose.png";
+import jetpackCompose from "./tech/jetpackCompose.svg";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
-import mongodb from "./tech/mongodb.png";
+import mongodb from "./tech/mongodb.svg";
 import figma from "./tech/figma.svg";
 import ktor from "./tech/ktor.svg";
-import firebase from "./tech/firebase.png";
+import firebase from "./tech/firebase.svg";
 
 
 // Import common assets

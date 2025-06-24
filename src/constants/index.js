@@ -34,14 +34,23 @@ export const navLinks = [
 ];
 
 export const services = [
-    {title: "Kotlin", icon: kotlin},
-    {title: "Android", icon: android},
-    {title: "Java", icon: java},
-    {title: "Python", icon: python},
-    {title: "Java Script", icon: javascript},
-    {title: "C", icon: c},
+    { title: "Kotlin", icon: kotlin },
+    { title: "Android", icon: android },
+    { title: "Java", icon: java },
+    { title: "Python", icon: python },
+    { title: "Java Script", icon: javascript },
+    { title: "C", icon: c },
+    { title: "JetPack Compose", icon: jetpackCompose },
+    { title: "MongoDB", icon: mongodb },
+    { title: "Firebase", icon: firebase },
+    { title: "Ktor", icon: ktor },
+    { title: "git", icon: git },
+    { title: "React JS", icon: reactjs },
+    { title: "Tailwind CSS", icon: tailwind },
+    { title: "Figma", icon: figma },
+    { title: "CSS 3", icon: css },
 ];
-
+/*
 export const technologies = [
     {name: "JetPack Compose", icon: jetpackCompose},
     {name: "MongoDB", icon: mongodb},
@@ -53,7 +62,7 @@ export const technologies = [
     {name: "Figma", icon: figma},
     {name: "CSS 3", icon: css},
 ];
-
+*/
 export const experiences = [
     {
         title: "Network Engineering Intern",
