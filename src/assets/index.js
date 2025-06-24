@@ -28,7 +28,6 @@ import firebase from "./tech/firebase.svg";
 
 
 // Import common assets
-import logo from "./logo.svg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -54,7 +53,6 @@ export {
   reactjs,
   tailwind,
     figma,
-  logo,
   menu,
   close,
   ktor,
