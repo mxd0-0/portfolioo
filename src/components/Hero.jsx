@@ -17,7 +17,7 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915EFF]">Mohammed Amine</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100 text-5xl`}>
+          <p className={`${styles.heroSubText} mt-2 text-white-100 text-[24px]`}>
             I do
             <Typewriter
               options={{
