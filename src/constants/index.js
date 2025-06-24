@@ -34,21 +34,21 @@ export const navLinks = [
 ];
 
 export const services = [
-    { title: "Kotlin", icon: kotlin },
     { title: "Android", icon: android },
+    { title: "Kotlin", icon: kotlin },
     { title: "Java", icon: java },
     { title: "Python", icon: python },
     { title: "Java Script", icon: javascript },
-    { title: "C", icon: c },
+    //{ title: "C", icon: c },
     { title: "JetPack Compose", icon: jetpackCompose },
-    { title: "MongoDB", icon: mongodb },
-    { title: "Firebase", icon: firebase },
-    { title: "Ktor", icon: ktor },
-    { title: "git", icon: git },
+    //{ title: "MongoDB", icon: mongodb },
+    //{ title: "Firebase", icon: firebase },
+    {title: "Ktor", icon: ktor },
+   // { title: "git", icon: git },
     { title: "React JS", icon: reactjs },
-    { title: "Tailwind CSS", icon: tailwind },
-    { title: "Figma", icon: figma },
-    { title: "CSS 3", icon: css },
+    //{ title: "Tailwind CSS", icon: tailwind },
+    //{ title: "Figma", icon: figma },
+    //{ title: "CSS 3", icon: css },
 ];
 /*
 export const technologies = [
