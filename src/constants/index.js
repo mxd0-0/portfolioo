@@ -43,9 +43,9 @@ export const services = [
     //{ title: "C", icon: c },
     //{ title: "MongoDB", icon: mongodb },
     //{ title: "Firebase", icon: firebase },
-   // {title: "Ktor", icon: ktor },
+    {title: "Ktor", icon: ktor },
    // { title: "git", icon: git },
-    //{ title: "React JS", icon: reactjs },
+    { title: "React JS", icon: reactjs },
     //{ title: "Tailwind CSS", icon: tailwind },
     //{ title: "Figma", icon: figma },
     //{ title: "CSS 3", icon: css },
@@ -103,7 +103,8 @@ export const projects = [
             {name: "MVI Architecture", color: "yellow-text-gradient"},
             {name: "Koin", color: "orange-text-gradient"},
         ],
-        image: "https://github.com/user-attachments/assets/bc446c0a-25ae-41e3-b0e5-237119a7472e", // Make sure to import/create this image reference
+        image: "https://github.com/user-attachments/assets/49df6ceb-dd66-4b33-96e9-c5d6617e8088", // Make sure to import/create this image reference
+
         source_code_link: "https://github.com/mxd0-0/CoinSync",
     },
     {
@@ -116,7 +117,7 @@ export const projects = [
             {name: "Clean Architecture", color: "pink-text-gradient"},
             {name: "Unit Testing", color: "yellow-text-gradient"},
         ],
-        image: "https://github.com/user-attachments/assets/49df6ceb-dd66-4b33-96e9-c5d6617e8088", // Make sure to import/create this image reference
+        image: "https://github.com/user-attachments/assets/bc446c0a-25ae-41e3-b0e5-237119a7472e", // Make sure to import/create this image reference
         source_code_link: "https://github.com/mxd0-0/MYBMI",
     }
 ];
