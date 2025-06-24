@@ -1,7 +1,5 @@
 // Import company logos
-import mathwork from "./company/mathwork.png";
-import edunet from "./company/edunet.png";
-import eduskill from "./company/eduskill.png";
+
 import algerieTelecom from "./company/algerieTelecom.svg";
 import nanoConsulting from "./company/nanoConsulting.jpg";
 
@@ -14,13 +12,6 @@ import kotlin from "./tech-stack/kotlin.png";
 import android from "./tech-stack/android.gif";
 
 // Import project images
-import weatherpedia from "./projects/WeatherPedia.png";
-import termpw from "./projects/termpw.png";
-import payloadmaster from "./projects/payloadmaster.png";
-import mhft from "./projects/mhft.png";
-import sketcher from "./projects/sketcher.png";
-import CompileVortex from "./projects/CompileVortex.png";
-
 // Import tech logos
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -30,7 +21,6 @@ import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.png";
 import mongodb from "./tech/mongodb.svg";
 import figma from "./tech/figma.svg";
 import ktor from "./tech/ktor.svg";
@@ -49,9 +39,7 @@ export {
   jetpackCompose,
     mongodb,
   android,
-  mathwork,
   kotlin,
-  edunet,
   firebase,
   python,
   c,
@@ -66,16 +54,8 @@ export {
   reactjs,
   tailwind,
     figma,
-  threejs,
-  weatherpedia,
-  termpw,
-  payloadmaster,
-  mhft,
-  sketcher,
-  CompileVortex,
   logo,
   menu,
   close,
   ktor,
-  eduskill,
 };

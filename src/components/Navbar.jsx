@@ -1,17 +1,13 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
-import { close, logo, menu } from '../assets';
-import { navLinks } from '../constants';
-import { styles } from '../styles';
+import React, {useEffect, useState} from 'react';
+import {Link} from 'react-router-dom';
+import {close, menu} from '../assets';
+import {navLinks} from '../constants';
+import {styles} from '../styles';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
   const [toggle, setToggle] = useState(false);
 
-  const toggleResume = () => {
-    const resumeUrl = '/Resume.pdf';
-    window.open(resumeUrl);
-  };
 
   useEffect(() => {
     if (toggle) {
@@ -37,13 +33,6 @@ const Navbar = () => {
           <a href={`#${link.id}`}>{link.title}</a>
         </li>
       ))}
-      <li
-        className={`text-${
-          isSecondary ? 'secondary' : 'white'
-        } hover:text-white text-[20px] font-medium cursor-pointer`}
-      >
-        <button onClick={toggleResume}>Resume</button>
-      </li>
     </ul>
   );
 
