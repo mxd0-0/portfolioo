@@ -9,7 +9,7 @@ import c from "./tech-stack/c.png";
 import cpp from "./tech-stack/cpp.png";
 import java from "./tech-stack/java.png";
 import kotlin from "./tech-stack/kotlin.png";
-import android from "./tech-stack/android.gif";
+import android from "./tech-stack/android.png";
 
 // Import project images
 // Import tech logos
