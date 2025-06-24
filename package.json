@@ -1,16 +1,16 @@
 {
-  "name": "Portfolio-Website",
   "homepage": "https://mxd0-0.github.io/portfolioo/",
+  "name": "Portfolio-Website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
+    "lint": "eslint .",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
