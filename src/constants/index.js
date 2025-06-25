@@ -1,22 +1,4 @@
-import {
-    algerieTelecom,
-    android,
-    c,
-    css,
-    figma,
-    firebase,
-    git,
-    java,
-    javascript,
-    jetpackCompose,
-    kotlin,
-    ktor,
-    mongodb,
-    nanoConsulting,
-    python,
-    reactjs,
-    tailwind
-} from "../assets";
+import {algerieTelecom, android, java, jetpackCompose, kotlin, ktor, nanoConsulting, python, reactjs} from "../assets";
 
 export const navLinks = [
     {
@@ -119,5 +101,19 @@ export const projects = [
         ],
         image: "https://github.com/user-attachments/assets/bc446c0a-25ae-41e3-b0e5-237119a7472e", // Make sure to import/create this image reference
         source_code_link: "https://github.com/mxd0-0/MYBMI",
-    }
+    },
+
+    {
+        name: "Exact Science Faculty TV",
+        description:
+            "A Smart TV display app for the Faculty of Exact Sciences – University of Bechar. Built using Jetpack Compose and Firebase, it showcases quotes, upcoming events, a live clock, and institutional links in a carousel-based interface.",
+        tags: [
+            {name: "Kotlin", color: "blue-text-gradient"},
+            {name: "Jetpack Compose", color: "green-text-gradient"},
+            {name: "Firebase", color: "orange-text-gradient"},
+            {name: "Smart TV", color: "purple-text-gradient"},
+        ],
+        image: "https://github.com/user-attachments/assets/df3af1f5-4695-44b7-94d4-be612fcac220", // Ensure this image is accessible
+        source_code_link: "https://github.com/DervinAn/Faculty_of_exact_science",
+    },
 ];
