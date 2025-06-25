@@ -82,7 +82,7 @@ export const projects = [
             {name: "Kotlin", color: "blue-text-gradient"},
             {name: "Jetpack Compose", color: "green-text-gradient"},
             {name: "Ktor", color: "pink-text-gradient"},
-            {name: "MVI Architecture", color: "yellow-text-gradient"},
+            {name: "MVI Architecture", color: "orange-text-gradient"},
             {name: "Koin", color: "orange-text-gradient"},
         ],
         image: "https://github.com/user-attachments/assets/49df6ceb-dd66-4b33-96e9-c5d6617e8088", // Make sure to import/create this image reference
@@ -97,7 +97,7 @@ export const projects = [
             {name: "Kotlin", color: "blue-text-gradient"},
             {name: "Jetpack Compose", color: "green-text-gradient"},
             {name: "Clean Architecture", color: "pink-text-gradient"},
-            {name: "Unit Testing", color: "yellow-text-gradient"},
+            {name: "Unit Testing", color: "orange-text-gradient"},
         ],
         image: "https://github.com/user-attachments/assets/bc446c0a-25ae-41e3-b0e5-237119a7472e", // Make sure to import/create this image reference
         source_code_link: "https://github.com/mxd0-0/MYBMI",
@@ -111,7 +111,7 @@ export const projects = [
             {name: "Kotlin", color: "blue-text-gradient"},
             {name: "Jetpack Compose", color: "green-text-gradient"},
             {name: "Firebase", color: "orange-text-gradient"},
-            {name: "Smart TV", color: "purple-text-gradient"},
+            {name: "Smart TV", color: "orange-text-gradient"},
         ],
         image: "https://github.com/user-attachments/assets/df3af1f5-4695-44b7-94d4-be612fcac220", // Ensure this image is accessible
         source_code_link: "https://github.com/DervinAn/Faculty_of_exact_science",
