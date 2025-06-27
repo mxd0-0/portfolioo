@@ -4,7 +4,7 @@ import {
     java,
     jetpackCompose,
     kotlin,
-    ktor, MYBMI,
+    ktor, menuKtor, MYBMI,
     nanoConsulting,
     python,
     reactjs,
@@ -113,7 +113,6 @@ export const projects = [
         image: MYBMI, // Make sure to import/create this image reference
         source_code_link: "https://github.com/mxd0-0/MYBMI",
     },
-
     {
         name: "Exact Science Faculty TV",
         description:
@@ -126,5 +125,18 @@ export const projects = [
         ],
         image: tvApp, // Ensure this image is accessible
         source_code_link: "https://github.com/DervinAn/Faculty_of_exact_science",
+    },
+    {
+        name: "FoodFlow",
+        description:
+            "Lightweight Ktor-based REST API backend that handles CRUD operations and category-based filtering for restaurant menus, built with Kotlin and kotlinx-serialization.",
+        tags: [
+            { name: "Kotlin", color: "blue-text-gradient" },
+            { name: "Ktor", color: "pink-text-gradient" },
+            { name: "REST API", color: "green-text-gradient" },
+            { name: "Serialization", color: "orange-text-gradient" },
+        ],
+        image: menuKtor, // Make sure to import/create this image reference
+        source_code_link: "https://github.com/your-username/foodflow",
     },
 ];

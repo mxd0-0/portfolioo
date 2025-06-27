@@ -27,6 +27,7 @@ import ktor from "./tech/ktor.svg";
 import firebase from "./tech/firebase.svg";
 import tvApp from "./projects/covertvapp.png";
 import MYBMI from "./projects/MYBMI.png";
+import menuKtor from "./projects/MenuApi.png";
 
 
 // Import common assets
@@ -44,6 +45,7 @@ export {
     kotlin,
     firebase,
     python,
+    menuKtor,
     c,
     cpp,
     java,
