@@ -137,6 +137,6 @@ export const projects = [
             { name: "Serialization", color: "orange-text-gradient" },
         ],
         image: menuKtor, // Make sure to import/create this image reference
-        source_code_link: "https://github.com/your-username/foodflow",
+        source_code_link: "https://github.com/mxd0-0/FoodFlow.git",
     },
 ];
