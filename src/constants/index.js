@@ -1,4 +1,15 @@
-import {algerieTelecom, android, java, jetpackCompose, kotlin, ktor, nanoConsulting, python, reactjs} from "../assets";
+import {
+    algerieTelecom,
+    android,
+    java,
+    jetpackCompose,
+    kotlin,
+    ktor, MYBMI,
+    nanoConsulting,
+    python,
+    reactjs,
+    tvApp
+} from "../assets";
 
 export const navLinks = [
     {
@@ -99,7 +110,7 @@ export const projects = [
             {name: "Clean Architecture", color: "pink-text-gradient"},
             {name: "Unit Testing", color: "orange-text-gradient"},
         ],
-        image: "https://github.com/user-attachments/assets/bc446c0a-25ae-41e3-b0e5-237119a7472e", // Make sure to import/create this image reference
+        image: MYBMI, // Make sure to import/create this image reference
         source_code_link: "https://github.com/mxd0-0/MYBMI",
     },
 
@@ -113,7 +124,7 @@ export const projects = [
             {name: "Firebase", color: "orange-text-gradient"},
             {name: "Smart TV", color: "orange-text-gradient"},
         ],
-        image: "https://github.com/user-attachments/assets/df3af1f5-4695-44b7-94d4-be612fcac220", // Ensure this image is accessible
+        image: tvApp, // Ensure this image is accessible
         source_code_link: "https://github.com/DervinAn/Faculty_of_exact_science",
     },
 ];

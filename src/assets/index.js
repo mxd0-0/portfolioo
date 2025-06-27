@@ -25,6 +25,8 @@ import mongodb from "./tech/mongodb.svg";
 import figma from "./tech/figma.svg";
 import ktor from "./tech/ktor.svg";
 import firebase from "./tech/firebase.svg";
+import tvApp from "./projects/covertvapp.png";
+import MYBMI from "./projects/MYBMI.png";
 
 
 // Import common assets
@@ -33,6 +35,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 export {
+    tvApp,
     algerieTelecom,
     nanoConsulting,
     jetpackCompose,
@@ -51,6 +54,7 @@ export {
     javascript,
     nodejs,
     reactjs,
+    MYBMI,
     tailwind,
     figma,
     menu,
