@@ -8,7 +8,7 @@ import {
     ktor,
     menuKtor,
     MYBMI,
-    planity,
+    PlanityCover,
     nanoConsulting,
     python,
     reactjs,
@@ -154,7 +154,7 @@ export const projects = [
             { name: "Clean Architecture", color: "pink-text-gradient" },
             { name: "MVI", color: "orange-text-gradient" }
         ],
-        image: planity, // ← Use your hosted banner image here
+        image: PlanityCover, // ← Use your hosted banner image here
         source_code_link: "https://github.com/mxd0-0/planity"
     },
     {
