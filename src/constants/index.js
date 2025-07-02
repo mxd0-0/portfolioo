@@ -1,10 +1,14 @@
 import {
     algerieTelecom,
     android,
+    law,
     java,
     jetpackCompose,
     kotlin,
-    ktor, menuKtor, MYBMI,
+    ktor,
+    menuKtor,
+    MYBMI,
+    planity,
     nanoConsulting,
     python,
     reactjs,
@@ -139,4 +143,33 @@ export const projects = [
         image: menuKtor, // Make sure to import/create this image reference
         source_code_link: "https://github.com/mxd0-0/FoodFlow.git",
     },
+    {
+        name: "Planity",
+        description:
+            "Feature-rich Android to-do & task manager with Firebase integration, category-based organization, and real-time sync. Built with Jetpack Compose, Clean Architecture, and MVI pattern.",
+        tags: [
+            { name: "Kotlin", color: "blue-text-gradient" },
+            { name: "Jetpack Compose", color: "green-text-gradient" },
+            { name: "Firebase", color: "orange-text-gradient" },
+            { name: "Clean Architecture", color: "pink-text-gradient" },
+            { name: "MVI", color: "orange-text-gradient" }
+        ],
+        image: planity, // ← Use your hosted banner image here
+        source_code_link: "https://github.com/mxd0-0/planity"
+    },
+    {
+        name: "LawConnect",
+        description:
+            "Mobile platform to streamline the client-lawyer consultation workflow, featuring real-time updates, case management, and secure authentication. Built using Firebase and Clean Architecture for scalability and responsiveness.",
+        tags: [
+            { name: "Kotlin", color: "blue-text-gradient" },
+            { name: "Jetpack Compose", color: "green-text-gradient" },
+            { name: "Firebase", color: "orange-text-gradient" },
+            { name: "Clean Architecture", color: "pink-text-gradient" },
+        ],
+        image: law,
+        source_code_link: "https://github.com/mxd0-0/LawApp"
+    }
+
+
 ];
