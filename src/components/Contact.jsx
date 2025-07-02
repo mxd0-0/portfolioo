@@ -21,7 +21,7 @@ const contacts = [
     },
     {
         label: "Resume",
-        link: "https://shorturl.at/LtSTS",
+        link: "https://shorturl.at/drc3a",
         icon: "https://img.icons8.com/ios-filled/50/ffffff/open-resume.png",
     },
 ];
