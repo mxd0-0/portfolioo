@@ -30,6 +30,7 @@ import MYBMI from "./projects/MYBMI.png";
 import menuKtor from "./projects/MenuApi.png";
 import PlanityCover from "./Planity.png";
 import law from "./projects/law.png";
+import signioImage from "./projects/signio.png";
 
 
 // Import common assets
@@ -38,6 +39,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 export {
+    signioImage,
     PlanityCover,
     law,
     tvApp,

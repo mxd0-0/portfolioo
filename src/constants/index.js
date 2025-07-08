@@ -12,6 +12,7 @@ import {
     nanoConsulting,
     python,
     reactjs,
+    signioImage,
     tvApp
 } from "../assets";
 
@@ -169,6 +170,20 @@ export const projects = [
         ],
         image: law,
         source_code_link: "https://github.com/mxd0-0/LawApp"
+    },
+    {
+        name: "Signio",
+        description:
+            "Modern, secure digital signature platform built with React that enables businesses to create, send, and manage digital documents with legally binding electronic signatures. Features responsive design, smooth animations, and streamlined workflows.",
+        tags: [
+            { name: "React", color: "blue-text-gradient" },
+            { name: "Vite", color: "green-text-gradient" },
+            { name: "Tailwind CSS", color: "pink-text-gradient" },
+            { name: "Framer Motion", color: "orange-text-gradient" },
+            { name: "CI/CD", color: "blue-text-gradient" }
+        ],
+        image: signioImage, // Make sure to import/create this image reference
+        source_code_link: "https://github.com/mxd0-0/signio"
     }
 
 
