@@ -185,6 +185,4 @@ export const projects = [
         image: signioImage, // Make sure to import/create this image reference
         source_code_link: "https://github.com/mxd0-0/signio"
     }
-
-
 ];

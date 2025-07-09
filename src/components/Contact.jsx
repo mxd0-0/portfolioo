@@ -24,6 +24,11 @@ const contacts = [
         link: "https://shorturl.at/drc3a",
         icon: "https://img.icons8.com/ios-filled/50/ffffff/open-resume.png",
     },
+    {
+        label: "+213675751757",
+        link: "",
+        icon: "https://img.icons8.com/ios-filled/50/ffffff/phone.png",
+    }
 ];
 
 const ContactButton = ({ index, label, link, icon }) => (
