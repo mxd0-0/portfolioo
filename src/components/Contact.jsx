@@ -26,7 +26,7 @@ const contacts = [
     },
     {
         label: "+213675751757",
-        link: "",
+        link: "tel:+213675751757",
         icon: "https://img.icons8.com/ios-filled/50/ffffff/phone.png",
     }
 ];
