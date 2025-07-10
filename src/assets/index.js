@@ -29,6 +29,7 @@ import tvApp from "./projects/covertvapp.png";
 import MYBMI from "./projects/MYBMI.png";
 import menuKtor from "./projects/MenuApi.png";
 import PlanityCover from "./Planity.png";
+import macloud from "./macloud.png";
 import law from "./projects/law.png";
 import signioImage from "./projects/signio.png";
 
@@ -39,6 +40,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 export {
+    macloud,
     signioImage,
     PlanityCover,
     law,

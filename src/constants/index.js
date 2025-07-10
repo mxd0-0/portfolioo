@@ -13,6 +13,7 @@ import {
     python,
     reactjs,
     signioImage,
+    macloud,
     tvApp
 } from "../assets";
 
@@ -184,5 +185,19 @@ export const projects = [
         ],
         image: signioImage, // Make sure to import/create this image reference
         source_code_link: "https://github.com/mxd0-0/signio"
+    },
+    {
+        name: "MACloud",
+        description:
+            "Modern, responsive web hosting service website built with React and Vite. Features include hosting plan showcases, 24/7 support section, testimonials, interactive animations, and optimized performance with Tailwind CSS and Framer Motion.",
+        tags: [
+            { name: "React", color: "blue-text-gradient" },
+            { name: "Vite", color: "green-text-gradient" },
+            { name: "Tailwind CSS", color: "pink-text-gradient" },
+            { name: "Framer Motion", color: "orange-text-gradient" },
+            { name: "CI/CD", color: "blue-text-gradient" }
+        ],
+        image: macloud, // Make sure this is imported correctly from your assets
+        source_code_link: "https://github.com/mxd0-0/MACloud"
     }
 ];
